@@ -1,0 +1,36 @@
+{
+    "network": "goerli",
+    "gasSpeed": "fast",
+    "gasPriceOverride": "",
+    "name": "Composable Stable Pool- CARBON ASSETS",
+    "symbol": "PTCSP",
+    "poolType": "ComposableStablePool",
+    "swapFeePercent": "1.0",
+    "fromInternalBalance": false,
+    "amplificationParameter": "100",
+    "owner": "0x29F9084a21C9ADdccC8e03d72E53D0aF932a1b7b",
+    "tokens": {
+        "0x750c48A49CC4F71c1B3b8d3D763D40Ea1D973b7C": {
+            "initialBalance": "1000",
+            "allowance": -1,
+            "rateProvider": "0x0000000000000000000000000000000000000000",
+            "tokenRateCacheDuration": "1000",
+            "exemptFromYieldProtocolFeeFlags": false
+        },
+        "0xb21583D10795e4Cd6de1873E7f13678D8eAd6e40": {
+            "initialBalance": "1000",
+            "allowance": -1,
+            "rateProvider": "0x0000000000000000000000000000000000000000",
+            "tokenRateCacheDuration": "1000",
+            "exemptFromYieldProtocolFeeFlags": false
+        },
+        "0xC0a957D9ce9c230541Bcb82653838d619a85fB1f": {
+            "initialBalance": "1000",
+            "allowance": -1,
+            "rateProvider": "0x0000000000000000000000000000000000000000",
+            "tokenRateCacheDuration": "1000",
+            "exemptFromYieldProtocolFeeFlags": false
+        }
+    },
+    "poolId": "1049cd39f9ab0cd9abe9df16db4cf882ea9dd918000000000000000000000644"
+}
